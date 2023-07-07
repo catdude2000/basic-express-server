@@ -4,9 +4,9 @@
   "description": "401N lab 2",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm start"
   },
   "keywords": [],
-  "author": "",
+  "author": "Mike Pace",
   "license": "ISC"
 }
