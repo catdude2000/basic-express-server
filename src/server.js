@@ -18,7 +18,7 @@ app.get('/', (req, res, next) => {
   res.status(200).send('proof: LIFE!');
 });
 
-app.get('/Mike', validator, (req, res, next) => {
+app.get('/mike', validator, (req, res, next) => {
   console.log('Name query for person endpoint: ', req.query.name);
   // let name = req.query.name;
   res.status(200).send(req.query.name);

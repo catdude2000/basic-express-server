@@ -31,7 +31,7 @@ clone repo, `npm i`, then run `nodemon` in the terminal
 
 #### Routes
 
-
+/, /mike
 #### Tests
 
 to run tests, after running `npm i`, run the command `npm test`
