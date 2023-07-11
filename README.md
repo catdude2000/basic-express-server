@@ -12,12 +12,10 @@ From a business requirements standpoint, we will be building a basic Express ser
 
 - [GitHub Actions ci/cd](https://github.com/catdude2000/basic-express-server/actions)
 // change--------------
-- [back-end dev server url](https://basic-express-server-tzll.onrender.com/)
-- [back-end prod server url]()
+- [back-end dev server url](https://basic-express-server-dev-eslr.onrender.com/)
+- [back-end prod server url](https://basic-express-server-tzll.onrender.com/)
 
 ### Collaborators
-
-
 
 ### Setup
 
@@ -32,6 +30,7 @@ clone repo, `npm i`, then run `nodemon` in the terminal
 #### Routes
 
 /, /mike
+
 #### Tests
 
 to run tests, after running `npm i`, run the command `npm test`
