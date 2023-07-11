@@ -2,7 +2,7 @@
 
 const express = require('express');
 // const cors = require('cors');
-const notFound = require('./error-handlers/404');
+const pageNotFoundHandler = require('./error-handlers/404');
 const errorHandler = require('./error-handlers/500');
 const validator = require('./middleware/validator');
 const logger = require('./middleware/logger');
@@ -24,7 +24,7 @@ app.get('/mike', validator, (req, res, next) => {
   res.status(200).send(req.query.name);
 });
 
-app.use('*', notFound);
+app.use('*', pageNotFoundHandler);
 app.use(errorHandler);
 
 const start = (port) => app.listen (port, () => console.log('listening on port:', port));

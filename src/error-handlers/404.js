@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 const pageNotFoundHandler = (req, res) => {
   res.status(404).send({
@@ -8,4 +8,4 @@ const pageNotFoundHandler = (req, res) => {
   });
 };
 
-module.exports = pageNotFoundHandler
+module.exports = pageNotFoundHandler;
